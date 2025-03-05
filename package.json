@@ -1,0 +1,8 @@
+{
+	"private": true,
+	"type": "module",
+	"name": "sb-example",
+	"packageManager": "pnpm@10.5.0",
+	"scripts": {
+	}
+}
