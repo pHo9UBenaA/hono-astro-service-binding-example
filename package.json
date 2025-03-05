@@ -4,6 +4,10 @@
 	"name": "sb-example",
 	"packageManager": "pnpm@10.5.0",
 	"scripts": {
+		"backend:dev": "pnpm -F backend dev",
+		"backend:deploy": "pnpm run -F backend deploy",
+		"web:dev": "pnpm -F web dev",
+		"web:deploy": "pnpm run -F web deploy",
 		"ci": "biome ci . --error-on-warnings",
 		"format": "biome format --write .",
 		"lint": "biome lint --write . --error-on-warnings",
