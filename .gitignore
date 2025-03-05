@@ -133,3 +133,5 @@ dist
 
 # CI Pnpm cache
 .pnpm-store/
+
+.wrangler
