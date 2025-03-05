@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "@sb-example/web",
+  "packageManager": "pnpm@10.5.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro build && wrangler pages dev",
+    "deploy": "astro build && wrangler pages deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.2.3",
+    "@hono/zod-validator": "^0.4.3",
+    "astro": "^5.4.2",
+    "hono": "^4.7.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250303.0",
+    "@sb-example/backend": "workspace:*",
+    "wrangler": "^3.112.0"
+  }
+}

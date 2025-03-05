@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { fetchHealth } from '../services/fetchHealth';
+
+const env = Astro.locals.runtime.env;
+const response = await fetchHealth(env);
+---
+
+<Layout>
+    <p>{response.health}</p>
+</Layout>
