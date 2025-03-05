@@ -15,5 +15,8 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4"
+	},
+	"resolutions": {
+		"cookie": ">=0.7.0"
 	}
 }
