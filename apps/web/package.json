@@ -6,7 +6,8 @@
 	"scripts": {
 		"dev": "astro build && wrangler pages dev",
 		"deploy": "astro build && wrangler pages deploy",
-		"cf-typegen": "wrangler types"
+		"cf-typegen": "wrangler types",
+		"test": "echo 'TODO: Add tests'"
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "^12.2.3",
