@@ -22,10 +22,10 @@ importers:
     dependencies:
       '@hono/zod-validator':
         specifier: ^0.4.3
-        version: 0.4.3(hono@4.7.4)(zod@3.24.2)
+        version: 0.4.3(hono@4.7.5)(zod@3.24.2)
       hono:
-        specifier: ^4.7.4
-        version: 4.7.4
+        specifier: ^4.7.5
+        version: 4.7.5
       zod:
         specifier: ^3.24.2
         version: 3.24.2
@@ -47,13 +47,13 @@ importers:
         version: 12.2.3(astro@5.4.2(rollup@4.35.0)(typescript@5.8.2))
       '@hono/zod-validator':
         specifier: ^0.4.3
-        version: 0.4.3(hono@4.7.4)(zod@3.24.2)
+        version: 0.4.3(hono@4.7.5)(zod@3.24.2)
       astro:
         specifier: ^5.4.2
         version: 5.4.2(rollup@4.35.0)(typescript@5.8.2)
       hono:
-        specifier: ^4.7.4
-        version: 4.7.4
+        specifier: ^4.7.5
+        version: 4.7.5
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250321.0
@@ -1320,8 +1320,8 @@ packages:
   hastscript@9.0.1:
     resolution: {integrity: sha512-g7df9rMFX/SPi34tyGCyUBREQoKkapwdY/T04Qn9TDWfHhAYt4/I0gMVirzK5wEzeUqIjEB+LXC/ypb7Aqno5w==}
 
-  hono@4.7.4:
-    resolution: {integrity: sha512-Pst8FuGqz3L7tFF+u9Pu70eI0xa5S3LPUmrNd5Jm8nTHze9FxLTK9Kaj5g/k4UcwuJSXTP65SyHOPLrffpcAJg==}
+  hono@4.7.5:
+    resolution: {integrity: sha512-fDOK5W2C1vZACsgLONigdZTRZxuBqFtcKh7bUQ5cVSbwI2RWjloJDcgFOVzbQrlI6pCmhlTsVYZ7zpLj4m4qMQ==}
     engines: {node: '>=16.9.0'}
 
   html-escaper@3.0.3:
@@ -2567,9 +2567,9 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@hono/zod-validator@0.4.3(hono@4.7.4)(zod@3.24.2)':
+  '@hono/zod-validator@0.4.3(hono@4.7.5)(zod@3.24.2)':
     dependencies:
-      hono: 4.7.4
+      hono: 4.7.5
       zod: 3.24.2
 
   '@img/sharp-darwin-arm64@0.33.5':
@@ -3370,7 +3370,7 @@ snapshots:
       property-information: 7.0.0
       space-separated-tokens: 2.0.2
 
-  hono@4.7.4: {}
+  hono@4.7.5: {}
 
   html-escaper@3.0.3: {}
 
