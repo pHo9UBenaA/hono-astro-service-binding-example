@@ -10,7 +10,7 @@
 		"test": "echo 'TODO: Add tests'"
 	},
 	"dependencies": {
-		"@astrojs/cloudflare": "^12.2.3",
+		"@astrojs/cloudflare": "^12.5.2",
 		"@hono/zod-validator": "^0.4.3",
 		"astro": "^5.4.2",
 		"hono": "^4.7.4"
