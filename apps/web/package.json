@@ -10,10 +10,10 @@
 		"test": "echo 'TODO: Add tests'"
 	},
 	"dependencies": {
-		"@astrojs/cloudflare": "^12.2.3",
+		"@astrojs/cloudflare": "^12.6.6",
 		"@hono/zod-validator": "^0.4.3",
-		"astro": "^5.4.2",
-		"hono": "^4.7.4"
+		"astro": "^5.14.3",
+		"hono": "^4.9.7"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20250321.0",
